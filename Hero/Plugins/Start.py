@@ -111,7 +111,7 @@ async def useradd(_, message: Message):
         photo=f"https://telegra.ph/file/46247f00eecfb587117c0.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟɪsʜᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
+ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ᴋɪɴɢ    : [Aʙʜɪᴍᴀɴʏᴜ Rᴀɴᴀ](https://t.me/Itz_Venom_xD)
 ┣★ ᴜᴘᴅᴀᴛᴇs : [Aʟɪsʜᴀ Sᴇʀᴠᴇʀ](https://t.me/AlishaSupport)

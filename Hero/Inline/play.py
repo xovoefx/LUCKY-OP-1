@@ -320,11 +320,9 @@ def secondary_markup(videoid, user_id):
 
             InlineKeyboardButton(
 
-                text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
+                text="𓄂✦⃝🎭-𓆩❛ 𝐌𝐑🥀⃝➻ 𝐋𝐔𝐂𝐊𝐘 ❜𓆪⁩🕊️⃝𝄞⃟ ", url=f"https://t.me/cute_boy701"
 
             ),
-
-            InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close"),
 
         ],
 

@@ -314,17 +314,7 @@ def secondary_markup(videoid, user_id):
 
             InlineKeyboardButton(text="𓆩👑❛ 𝐋𝐮𝐜𝐤𝐲 ♕︎ 𝐖𝐨𝐫𝐥𝐝᭄ ❜👑𓆪⁩", url=f"https://t.me/terayaarhoomai"),
 
-        ],
-
-        [
-
-            InlineKeyboardButton(
-
-                text="𓄂✦⃝🎭-𓆩❛ 𝐌𝐑🥀⃝➻ 𝐋𝐔𝐂𝐊𝐘 ❜𓆪⁩🕊️⃝𝄞⃟ ", url=f"https://t.me/cute_boy701"
-
-            ),
-
-        ],
+        ]
 
     ]
 
@@ -337,14 +327,6 @@ def secondary_markup2(videoid, user_id):
         [
 
             InlineKeyboardButton(text="𓆩👑❛ 𝐋𝐮𝐜𝐤𝐲 ♕︎ 𝐖𝐨𝐫𝐥𝐝᭄ ❜👑𓆪⁩", url=f"https://t.me/terayaarhoomai"),
-
-        ],
-
-        [
-
-            InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close"),
-
-        ],
 
     ]
 
@@ -376,18 +358,6 @@ def primary_markup(videoid, user_id, current_time, total_time):
 
             InlineKeyboardButton(text="𓆩👑❛ 𝐋𝐮𝐜𝐤𝐲 ♕︎ 𝐖𝐨𝐫𝐥𝐝᭄ ❜👑𓆪⁩", url=f"https://t.me/terayaarhoomai"),
 
-        ],
-
-        [
-
-            InlineKeyboardButton(
-
-                text="𓄂✦⃝🎭-𓆩❛ 𝐌𝐑🥀⃝➻ 𝐋𝐔𝐂𝐊𝐘 ❜𓆪⁩🕊️⃝𝄞⃟ ", url=f"https://t.me/cute_boy701"
-
-            ),
-
-        ],
-
     ]
 
     return buttons
@@ -411,18 +381,6 @@ def timer_markup(videoid, user_id, current_time, total_time):
         [
 
             InlineKeyboardButton(text="𓆩👑❛ 𝐋𝐮𝐜𝐤𝐲 ♕︎ 𝐖𝐨𝐫𝐥𝐝᭄ ❜👑𓆪⁩", url=f"https://t.me/terayaarhoomai"),
-
-        ],
-
-        [
-
-            InlineKeyboardButton(
-
-                text="𓄂✦⃝🎭-𓆩❛ 𝐌𝐑🥀⃝➻ 𝐋𝐔𝐂𝐊𝐘 ❜𓆪⁩🕊️⃝𝄞⃟ ", url=f"https://t.me/cute_boy701"
-
-            ),
-
-        ],
 
     ]
 
@@ -454,10 +412,6 @@ def audio_markup(videoid, user_id, current_time, total_time):
 
             InlineKeyboardButton(text="𓆩👑❛ 𝐋𝐮𝐜𝐤𝐲 ♕︎ 𝐖𝐨𝐫𝐥𝐝᭄ ❜👑𓆪⁩", url=f"https://t.me/terayaarhoomai"),
 
-        ],
-
-        [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close")],
-
     ]
 
     return buttons
@@ -482,11 +436,7 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
 
             InlineKeyboardButton(text="𓆩👑❛ 𝐋𝐮𝐜𝐤𝐲 ♕︎ 𝐖𝐨𝐫𝐥𝐝᭄ ❜👑𓆪⁩", url=f"https://t.me/terayaarhoomai"),
 
-        ],
-
-        [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close")],
-
-    ]
+        ]
 
     return buttons
 
@@ -497,10 +447,6 @@ audio_markup2 = InlineKeyboardMarkup(
         [
 
             InlineKeyboardButton(text="𓆩👑❛ 𝐋𝐮𝐜𝐤𝐲 ♕︎ 𝐖𝐨𝐫𝐥𝐝᭄ ❜👑𓆪⁩", url=f"https://t.me/terayaarhoomai"),
-
-        ],
-
-        [InlineKeyboardButton("🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data="close")],
 
     ]
 

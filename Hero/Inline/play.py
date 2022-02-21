@@ -448,6 +448,8 @@ audio_markup2 = InlineKeyboardMarkup(
 
             InlineKeyboardButton(text="𓆩👑❛ 𝐋𝐮𝐜𝐤𝐲 ♕︎ 𝐖𝐨𝐫𝐥𝐝᭄ ❜👑𓆪⁩", url=f"https://t.me/terayaarhoomai")
 
+        ]
+
     ]
 
 )

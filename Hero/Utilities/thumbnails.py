@@ -35,14 +35,6 @@ async def gen_thumb(thumbnail, title, userid, theme, ctitle):
     font = ImageFont.truetype("Utils/finalfont.ttf", 85)
     font2 = ImageFont.truetype("Utils/finalfont.ttf", 60)
     draw.text(
-        (20, 45),
-        f"Playing on: {ctitle[:14]}...",
-        fill="white",
-        stroke_width=1,
-        stroke_fill="white",
-        font=font2,
-    )
-    draw.text(
         (25, 595),
         f"{title[:27]}...",
         fill="white",

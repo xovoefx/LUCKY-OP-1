@@ -24,7 +24,7 @@ async def gen_thumb(thumbnail, title, userid, theme, ctitle):
                 await f.write(await resp.read())
                 await f.close()
     image1 = Image.open(f"cache/thumb{userid}.jpg")
-    image2 = Image.open(f"Utils/blue.PNG")
+    image2 = Image.open(f"Utils/{theme}.PNG")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -34,6 +34,14 @@ async def gen_thumb(thumbnail, title, userid, theme, ctitle):
     draw = ImageDraw.Draw(img)
     font = ImageFont.truetype("Utils/finalfont.ttf", 85)
     font2 = ImageFont.truetype("Utils/finalfont.ttf", 60)
+    draw.text(
+        (20, 45),
+        f"Please yrr koi to pat jao...",
+        fill="white",
+        stroke_width=1,
+        stroke_fill="white",
+        font=font2,
+    )
     draw.text(
         (25, 595),
         f"{title[:27]}...",

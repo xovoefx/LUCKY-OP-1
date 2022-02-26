@@ -85,7 +85,7 @@ async def mplay_stream(message,MusicData):
         )
     mystic = await message.reply_text(f"🔥 𝐰𝐚𝐢𝐭 𝐛𝐚𝐛𝐲 💦")
     await mystic.edit(
-        f"**0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+        f"**0% ■■■■■■■■■■ 100%"
     )
     downloaded_file = await loop.run_in_executor(
         None, download, videoid, mystic, title

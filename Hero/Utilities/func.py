@@ -149,9 +149,6 @@ async def custom_start_stream(
         got_queue.append(to_append)
         final_output = await message.reply_photo(
             photo=thumb,
-            caption=(
-                f"🦋<b>__sᴏɴɢ:__ </b>{title[:25]} \n🚧<b>__ǫᴜᴇᴜᴇᴅ ᴀᴛ:__</b> <b>#{position}</b>"
-            ),
             reply_markup=InlineKeyboardMarkup(buttons),
         )
         await mystic.delete()        
@@ -173,7 +170,6 @@ async def custom_start_stream(
             videoid, message.from_user.id, duration_min, duration_min
         )
         await mystic.delete()
-        cap = f"🦋<b>__ᴘʟᴀʏɪɴɢ:__ </b>{title[:25]}"
         final_output = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -301,9 +297,6 @@ async def custom_video_stream(
         got_queue.append(to_append)
         final_output = await message.reply_photo(
             photo=thumb,
-            caption=(
-                f"🦋<b>ᴠɪᴅᴇᴏ:__ </b>{title[:25]} \n👤<b>__ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:__ </b>{message.from_user.mention} \n🚧<b>__ᴠɪᴅᴇᴏ ǫᴜᴇᴜᴇᴅ ᴀᴛ:__</b> <b>#{position}!</b>"
-            ),
             reply_markup=InlineKeyboardMarkup(buttons),
         )        
         os.remove(thumb)
@@ -329,7 +322,6 @@ async def custom_video_stream(
         buttons = primary_markup(
             videoid, message.from_user.id, duration_min, duration_min
         )
-        cap = f"**ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ**\n\n🦋<b>__ᴘʟᴀʏɪɴɢ:__ </b>{title[:25]} \n👤**__ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:__** {message.from_user.mention}"
         final_output = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),

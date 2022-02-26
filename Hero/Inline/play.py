@@ -312,12 +312,6 @@ def secondary_markup(videoid, user_id):
 
         [
 
-            InlineKeyboardButton(text="💜 𝐋𝐮𝐜𝐤𝐲 𝐖𝐨𝐫𝐥𝐝 💜", url=f"https://t.me/terayaarhoomai"),
-
-        ],
-
-        [
-
             InlineKeyboardButton(
 
                 text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
@@ -335,12 +329,6 @@ def secondary_markup(videoid, user_id):
 def secondary_markup2(videoid, user_id):
 
     buttons = [
-
-        [
-
-            InlineKeyboardButton(text="💜 𝐋𝐮𝐜𝐤𝐲 𝐖𝐨𝐫𝐥𝐝 💜⁩", url=f"https://t.me/terayaarhoomai"),
-
-        ],
 
         [
 
@@ -364,12 +352,6 @@ def primary_markup(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="💜 𝐋𝐮𝐜𝐤𝐲 𝐖𝐨𝐫𝐥𝐝 💜", url=f"https://t.me/terayaarhoomai"),
-
-        ],
-
-        [
-
             InlineKeyboardButton(
 
                 text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
@@ -387,12 +369,6 @@ def primary_markup(videoid, user_id, current_time, total_time):
 def timer_markup(videoid, user_id, current_time, total_time):
 
     buttons = [
-
-        [
-
-            InlineKeyboardButton(text="💜 𝐋𝐮𝐜𝐤𝐲 𝐖𝐨𝐫𝐥𝐝 💜", url=f"https://t.me/terayaarhoomai"),
-
-        ],
 
         [
 

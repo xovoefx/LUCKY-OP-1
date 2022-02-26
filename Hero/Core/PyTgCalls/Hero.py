@@ -18,21 +18,21 @@ from pytgcalls.types.input_stream.quality import (HighQualityAudio,
 from pytgcalls.types.stream import StreamAudioEnded, StreamVideoEnded
 
 from config import STRING1, STRING2, STRING3, STRING4, STRING5, get_queue
-from Yukki import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
+from Hero import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
                    MUSIC_BOT_NAME, app, db_mem)
-from Yukki.Core.PyTgCalls import Queues
-from Yukki.Core.PyTgCalls.Converter import convert
-from Yukki.Core.PyTgCalls.Downloader import download
-from Yukki.Database import (get_assistant, remove_active_chat,
+from Hero.Core.PyTgCalls import Queues
+from Hero.Core.PyTgCalls.Converter import convert
+from Hero.Core.PyTgCalls.Downloader import download
+from Hero.Database import (get_assistant, remove_active_chat,
                             remove_active_video_chat)
-from Yukki.Inline import (audio_markup, audio_timer_markup_start,
+from Hero.Inline import (audio_markup, audio_timer_markup_start,
                           primary_markup, secondary_markup2, timer_markup)
-from Yukki.Utilities.changers import time_to_seconds
-from Yukki.Utilities.chat import specialfont_to_normal
-from Yukki.Utilities.theme import check_theme
-from Yukki.Utilities.thumbnails import gen_thumb
-from Yukki.Utilities.timer import start_timer
-from Yukki.Utilities.youtube import get_m3u8, get_yt_info_id
+from Hero.Utilities.changers import time_to_seconds
+from Hero.Utilities.chat import specialfont_to_normal
+from Hero.Utilities.theme import check_theme
+from Hero.Utilities.thumbnails import gen_thumb
+from Hero.Utilities.timer import start_timer
+from Hero.Utilities.youtube import get_m3u8, get_yt_info_id
 
 ### Clients
 pytgcalls1 = PyTgCalls(ASS_CLI_1)

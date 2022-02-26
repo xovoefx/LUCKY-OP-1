@@ -83,9 +83,9 @@ async def mplay_stream(message,MusicData):
         return await message.reply_text(
             f"**ᴅᴜʀᴀᴛɪᴏɴ ʟɪᴍɪᴛ ᴇxᴄᴇᴇᴅᴇᴅ**\n\n**ᴀʟʟᴏᴡᴇᴅ ᴅᴜʀᴀᴛɪᴏɴ: **{DURATION_LIMIT_MIN} ᴍɪɴᴜᴛᴇs\n**ʀᴇᴄᴇɪᴠᴇᴅ ᴅᴜʀᴀᴛɪᴏɴ:** {duration_min} ᴍɪɴᴜᴛᴇs"
         )
-    mystic = await message.reply_text(f"🔥 𝐰𝐚𝐢𝐭 𝐛𝐚𝐛𝐲 💦")
+    mystic = await message.reply_text(f"🔄 ᴘʀᴏᴄᴇssɪɴɢ:- {title[:20]}")
     await mystic.edit(
-        f"**0% ■■■■■■■■■■ 100%"
+        f"**{MUSIC_BOT_NAME} ᴅᴏᴡɴʟᴏᴀᴅᴇʀ**\n**Title:** {title[:50]}\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
     )
     downloaded_file = await loop.run_in_executor(
         None, download, videoid, mystic, title
@@ -149,6 +149,9 @@ async def custom_start_stream(
         got_queue.append(to_append)
         final_output = await message.reply_photo(
             photo=thumb,
+            caption=(
+                f""
+            ),
             reply_markup=InlineKeyboardMarkup(buttons),
         )
         await mystic.delete()        
@@ -170,6 +173,7 @@ async def custom_start_stream(
             videoid, message.from_user.id, duration_min, duration_min
         )
         await mystic.delete()
+        cap = f""
         final_output = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -297,6 +301,9 @@ async def custom_video_stream(
         got_queue.append(to_append)
         final_output = await message.reply_photo(
             photo=thumb,
+            caption=(
+                f""
+            ),
             reply_markup=InlineKeyboardMarkup(buttons),
         )        
         os.remove(thumb)
@@ -322,6 +329,7 @@ async def custom_video_stream(
         buttons = primary_markup(
             videoid, message.from_user.id, duration_min, duration_min
         )
+        cap = f"ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ"
         final_output = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),

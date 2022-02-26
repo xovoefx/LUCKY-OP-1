@@ -150,7 +150,7 @@ async def custom_start_stream(
         final_output = await message.reply_photo(
             photo=thumb,
             caption=(
-                f""
+                f"𝐋𝐮𝐜𝐤𝐲 𝐨𝐩 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐨𝐧 {ctitle}"
             ),
             reply_markup=InlineKeyboardMarkup(buttons),
         )
@@ -173,7 +173,7 @@ async def custom_start_stream(
             videoid, message.from_user.id, duration_min, duration_min
         )
         await mystic.delete()
-        cap = f""
+        cap = f"𝐋𝐮𝐜𝐤𝐲 𝐨𝐩 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐨𝐧 {ctitle}"
         final_output = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -302,7 +302,7 @@ async def custom_video_stream(
         final_output = await message.reply_photo(
             photo=thumb,
             caption=(
-                f""
+                f"𝐋𝐮𝐜𝐤𝐲 𝐨𝐩 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐨𝐧 {ctitle}"
             ),
             reply_markup=InlineKeyboardMarkup(buttons),
         )        

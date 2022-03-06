@@ -17,7 +17,7 @@ from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
                  ImageFont, ImageOps)
 from youtubesearchpython import VideosSearch
 
-from config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
+from config import MUSIC_BOT_NAME
 
 
 def changeImageSize(maxWidth, maxHeight, image):

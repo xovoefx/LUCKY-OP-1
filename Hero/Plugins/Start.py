@@ -105,6 +105,66 @@ async def useradd(_, message: Message):
     )
 
 
+@app.on_message(filters.command("start") & filters.private & ~filters.edited)
+async def useradd(_, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph//file/36d023b698fb64efb9931.jpg",
+        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟɪsʜᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ᴋɪɴɢ    : [Aʙʜɪᴍᴀɴʏᴜ Rᴀɴᴀ](https://t.me/Venom_Hai_Hum)
+┣★ ᴜᴘᴅᴀᴛᴇs : [Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ](https://t.me/Pubglovers_Shayri_lovers)
+┣★ sᴜᴘᴘᴏʀᴛ : [ꜱᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ](https://t.me/Shayri_Music_Lovers)
+┣★ Qᴜᴇᴇɴ   : [Cᴀɴᴅʏ ǫᴜᴇᴇɴ](https://t.me/its_alone_candy)
+┗━━━━━━━━━━━━━━━━━┛
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
+ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Venom_Hai_Hum) ...
+━━━━━━━━━━━━━━━━━━━━━━━━**""",
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/Shayri_Music_Lovers")
+                ]
+                
+           ]
+        ),
+    )
+    
+    
+@app.on_message(filters.command(["alive", "Candy"]) & filters.group & ~filters.edited)
+async def useradd(_, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
+        caption=f"""""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/Shayri_Music_Lovers")
+                ]
+            ]
+        ),
+    )
+
+
+@app.on_message(filters.command(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
+async def useradd(_, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
+        caption=f"""""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/mrvk1703")
+                ]
+            ]
+        ),
+    )
+
+
 @app.on_message(filters.command("settings") & filters.group)
 async def settings(_, message: Message):
     c_id = message.chat.id

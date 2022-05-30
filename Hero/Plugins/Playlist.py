@@ -109,7 +109,7 @@ async def play_playlist_cmd(_, message):
 @checker
 @AssistantAdd
 async def playlist(_, message):
-    thumb = f"https://telegra.ph/file/3f09576ad17907503d2fc.jpg"
+    thumb = f"https://telegra.ph/file/a4fe04d7fd9f64c286dbd.jpg"
     user_id = message.from_user.id
     user_name = message.from_user.first_name
     buttons = check_markup(user_name, user_id, "abcd")

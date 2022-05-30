@@ -39,7 +39,7 @@ __HELP__ = """
 @checker
 @AssistantAdd
 async def play_playlist_cmd(_, message):
-    thumb = "Utils/Playlist.jpg"
+    thumb = f"{PING_IMG_URL}"
     await message.delete()
     if not message.reply_to_message:
         if len(message.command) == 2:

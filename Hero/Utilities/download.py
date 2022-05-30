@@ -1,19 +1,11 @@
-# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad Ali
-# Harshit Sharma
-
-
-
-import youtube_dl
+import yt_dlp
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaAudio,
                             InputMediaDocument, InputMediaVideo, Message)
 
 
 def YT_info(yturl):
-    ydl = youtube_dl.YoutubeDL()
+    ydl = yt_dlp.YoutubeDL()
     with ydl:
         formats_available = []
         r = ydl.extract_info(yturl, download=False)

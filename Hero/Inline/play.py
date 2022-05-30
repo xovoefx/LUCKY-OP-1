@@ -502,7 +502,7 @@ audio_markup2 = InlineKeyboardMarkup(
 
         [
 
-            InlineKeyboardButton(text=๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
+            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
 
         ],
 

@@ -126,7 +126,7 @@ async def mplayaa(_, message: Message):
                 message.from_user.first_name, message.from_user.id, "abcd"
             )
             await message.reply_photo(
-                photo=f"{PING_IMG_URL}",
+                photo=f"https://telegra.ph/file/a4fe04d7fd9f64c286dbd.jpg",
                 caption=(
                     "**ᴜsᴀɢᴇ:** `/play` [ᴍᴜsɪᴄ ɴᴀᴍᴇ ᴏʀ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ғɪʟᴇ]\n\nɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ ᴘʟᴀʏʟɪsᴛs sᴇʟᴇᴄᴛ ᴛʜᴇ ᴏɴᴇ ғʀᴏᴍ ʙᴇʟᴏᴡ..."
                 ),

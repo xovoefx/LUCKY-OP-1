@@ -1,6 +1,6 @@
 from os import path
 
-from youtube_dl import YoutubeDL
+from yt_dlp import YoutubeDL
 
 from Hero import MUSIC_BOT_NAME
 
@@ -61,7 +61,7 @@ def download(videoid: str, mystic, title) -> str:
                     flex[str(bytesx)] += 1
                     if eta > 2:
                         mystic.edit(
-                            f"**{MUSIC_BOT_NAME} ᴅᴏᴡɴʟᴏᴀᴅᴇʀ**\n\n**ᴛɪᴛʟᴇ:** {title[:50]}:\n**ғɪʟᴇ sɪᴢᴇ:** {size}\n\n**<u>ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ:</u>**\n**sᴘᴇᴇᴅ:** {speed}\n**ᴇᴛᴀ:** {eta} sᴇᴄᴏɴᴅs\n\n\n{percentage} ██████████▓▓ 100%"
+                            f"**{MUSIC_BOT_NAME} 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙧**\n\n**ᴛɪᴛʟᴇ:** {title[:50]}:\n**ғɪʟᴇ sɪᴢᴇ:** {size}\n\n**<u>ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ:</u>**\n**sᴘᴇᴇᴅ:** {speed}\n**ᴇᴛᴀ:** {eta} sᴇᴄᴏɴᴅs\n\n\n{percentage} ██████████▓▓ 100%"
                         )
         if d["status"] == "finished":
             try:
@@ -70,7 +70,7 @@ def download(videoid: str, mystic, title) -> str:
                 taken = "00:00"
             size = d["_total_bytes_str"]
             mystic.edit(
-                f"**{MUSIC_BOT_NAME} ᴅᴏᴡɴʟᴏᴀᴅᴇʀ**\n\n**ᴛɪᴛʟᴇ:** {title[:50]}:\n\n100% ████████████100%\n\n**ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** {taken} sᴇᴄᴏɴᴅs\n\nᴄᴏɴᴠᴇʀᴛɪɴɢ ᴀᴜᴅɪᴏ[ғғᴍᴘᴇɢ ᴘʀᴏᴄᴇss]"
+                f"**{MUSIC_BOT_NAME} 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙧**\n\n**ᴛɪᴛʟᴇ:** {title[:50]}:\n\n100% ████████████100%\n\n**ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** {taken} sᴇᴄᴏɴᴅs\n\nᴄᴏɴᴠᴇʀᴛɪɴɢ ᴀᴜᴅɪᴏ[ғғᴍᴘᴇɢ ᴘʀᴏᴄᴇss]"
             )
 
     ydl_optssx = {

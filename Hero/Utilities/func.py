@@ -173,7 +173,7 @@ async def custom_start_stream(
             videoid, message.from_user.id, duration_min, duration_min
         )
         await mystic.delete()
-        cap = f"🎧</b>ᴘʟᴀʏɪɴɢ: </b>[{title[:25]}](https://www.youtube.com/watch?v={videoid}) \n🥀**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {message.from_user.mention} \n💡<b>ɪɴғᴏ:</b> [🧚🏻‍♀️ ᴛᴇᴀᴍ ʟᴜᴄᴋʏ 🧚🏻‍♀️](https://t.me/official_lucky01"
+        cap = f"🎧</b>ᴘʟᴀʏɪɴɢ: </b>[{title[:25]}](https://www.youtube.com/watch?v={videoid}) \n🥀**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {message.from_user.mention} \n</b>[🧚🏻‍♀️ ᴛᴇᴀᴍ ʟᴜᴄᴋʏ 🧚🏻‍♀️](https://t.me/official_lucky01)"
         final_output = await message.reply_photo(
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),

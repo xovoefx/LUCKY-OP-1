@@ -5,6 +5,7 @@ from datetime import datetime
 import psutil
 from pyrogram import Client, filters
 from pyrogram.types import Message
+from config import PING_IMG_URL, START_IMG_URL
 
 from Hero import BOT_USERNAME, MUSIC_BOT_NAME, app, boottime
 from Hero.Utilities.ping import get_readable_time
@@ -33,7 +34,7 @@ async def bot_sys_stats():
 async def ping(_, message):
     start = datetime.now()
     response = await message.reply_photo(
-        photo=f"{PING_IMG_URL}",
+        photo=f"PING_IMG_URL",
         caption="🌸 ᴘɪɴɢ...",
     )
     uptime = await bot_sys_stats()

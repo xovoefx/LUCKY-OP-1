@@ -312,19 +312,13 @@ def secondary_markup(videoid, user_id):
 
         [
 
-            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
-
-        ],
-
-        [
-
             InlineKeyboardButton(
 
-                text="๏ ᴍᴏʀᴇ ᴍᴇɴᴜ ๏", callback_data=f"other {videoid}|{user_id}"
+                text="๏ ᴘʟᴀʏʟɪsᴛ ๏", callback_data=f"other {videoid}|{user_id}"
 
             ),
 
-            InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close"),
+            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/official_lucky01"),
 
         ],
 
@@ -376,19 +370,13 @@ def primary_markup(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
-
-        ],
-
-        [
-
             InlineKeyboardButton(
 
-                text="๏ ᴍᴏʀᴇ ᴍᴇɴᴜ ๏", callback_data=f"other {videoid}|{user_id}"
+                text="๏ ᴘʟᴀʏʟɪsᴛ ๏", callback_data=f"other {videoid}|{user_id}"
 
             ),
 
-            InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close"),
+            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/official_lucky01"),
 
         ],
 
@@ -414,19 +402,13 @@ def timer_markup(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
-
-        ],
-
-        [
-
             InlineKeyboardButton(
 
-                text="๏ ᴍᴏʀᴇ ᴍᴇɴᴜ ๏", callback_data=f"other {videoid}|{user_id}"
+                text="๏ ᴘʟᴀʏʟɪsᴛ ๏", callback_data=f"other {videoid}|{user_id}"
 
             ),
 
-            InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close"),
+            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/official_lucky01"),
 
         ],
 
@@ -458,11 +440,15 @@ def audio_markup(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
+            InlineKeyboardButton(
+
+                text="๏ ᴘʟᴀʏʟɪsᴛ ๏", callback_data=f"other {videoid}|{user_id}"
+
+            ),
+
+            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/official_lucky01"),
 
         ],
-
-        [InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close")],
 
     ]
 
@@ -486,11 +472,15 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏⁩", url=f"https://t.me/Official_lucky01"),
+            InlineKeyboardButton(
+
+                text="๏ ᴘʟᴀʏʟɪsᴛ ๏", callback_data=f"other {videoid}|{user_id}"
+
+            ),
+
+            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/official_lucky01"),
 
         ],
-
-        [InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close")],
 
     ]
 

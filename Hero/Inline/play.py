@@ -312,13 +312,19 @@ def secondary_markup(videoid, user_id):
 
         [
 
+            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
+
+        ],
+
+        [
+
             InlineKeyboardButton(
 
-                text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
+                text="๏ ᴍᴏʀᴇ ᴍᴇɴᴜ ๏", callback_data=f"other {videoid}|{user_id}"
 
             ),
 
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 🔗", url=f"https://t.me/cute_boy701"),
+            InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close"),
 
         ],
 
@@ -332,7 +338,13 @@ def secondary_markup2(videoid, user_id):
 
         [
 
-            InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close"),
+            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏⁩", url=f"https://t.me/official_lucky01"),
+
+        ],
+
+        [
+
+            InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close"),
 
         ],
 
@@ -354,11 +366,29 @@ def primary_markup(videoid, user_id, current_time, total_time):
 
             InlineKeyboardButton(
 
-                text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
+                text=f"{total_time} ------------------ {current_time}",
+
+                callback_data=f"timer_checkup_markup {videoid}|{user_id}",
+
+            )
+
+        ],
+
+        [
+
+            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
+
+        ],
+
+        [
+
+            InlineKeyboardButton(
+
+                text="๏ ᴍᴏʀᴇ ᴍᴇɴᴜ ๏", callback_data=f"other {videoid}|{user_id}"
 
             ),
 
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 🔗", url=f"https://t.me/cute_boy701"),
+            InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close"),
 
         ],
 
@@ -374,11 +404,29 @@ def timer_markup(videoid, user_id, current_time, total_time):
 
             InlineKeyboardButton(
 
-                text="🔗 ᴍᴏʀᴇ ᴍᴇɴᴜ", callback_data=f"other {videoid}|{user_id}"
+                text=f"{total_time} ------------------ {current_time}",
+
+                callback_data=f"timer_checkup_markup {videoid}|{user_id}",
+
+            )
+
+        ],
+
+        [
+
+            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
+
+        ],
+
+        [
+
+            InlineKeyboardButton(
+
+                text="๏ ᴍᴏʀᴇ ᴍᴇɴᴜ ๏", callback_data=f"other {videoid}|{user_id}"
 
             ),
 
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 🔗", url=f"https://t.me/cute_boy701"),
+            InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close"),
 
         ],
 
@@ -398,11 +446,23 @@ def audio_markup(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="💜 𝐋𝐮𝐜𝐤𝐲 𝐖𝐨𝐫𝐥𝐝 💜", url=f"https://t.me/terayaarhoomai"),
+            InlineKeyboardButton(
+
+                text=f"{total_time} ------------------ {current_time}",
+
+                callback_data=f"timer_checkup_markup {videoid}|{user_id}",
+
+            )
 
         ],
 
-        [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close")],
+        [
+
+            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
+
+        ],
+
+        [InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close")],
 
     ]
 
@@ -414,11 +474,23 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
 
         [
 
-            InlineKeyboardButton(text="💜 𝐋𝐮𝐜𝐤𝐲 𝐖𝐨𝐫𝐥𝐝 💜⁩", url=f"https://t.me/terayaarhoomai"),
+            InlineKeyboardButton(
+
+                text=f"{total_time} ------------------ {current_time}",
+
+                callback_data=f"timer_checkup_markup {videoid}|{user_id}",
+
+            )
 
         ],
 
-        [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data=f"close")],
+        [
+
+            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏⁩", url=f"https://t.me/Official_lucky01"),
+
+        ],
+
+        [InlineKeyboardButton(text="๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data=f"close")],
 
     ]
 
@@ -430,11 +502,11 @@ audio_markup2 = InlineKeyboardMarkup(
 
         [
 
-            InlineKeyboardButton(text="💜 𝐋𝐮𝐜𝐤𝐲 𝐖𝐨𝐫𝐥𝐝 💜", url=f"https://t.me/terayaarhoomai"),
+            InlineKeyboardButton(text=๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
 
         ],
 
-        [InlineKeyboardButton("🗑 ᴄʟᴏsᴇ ᴍᴇɴᴜ", callback_data="close")],
+        [InlineKeyboardButton("๏ ᴄʟᴏsᴇ ᴍᴇɴᴜ ๏", callback_data="close")],
 
     ]
 

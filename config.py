@@ -33,7 +33,8 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 ## PRIVATE START MESSAGE.. IMAGE
 # Please use telegraph link for this
 
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/a4fe04d7fd9f64c286dbd.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/a4fe04d7fd9f64c286dbd.jpg")
 
 # To work some Heroku compatible modules, this var value required to Access your account to use `get_log`, `usage`, `update` etc etc commands.
 # You can fill this var using your API key or Authorization token.
@@ -46,7 +47,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", "https://github.com/mrvk1703/hero"
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "LUCKY")
 
 # If you have a Support for your Music Bot, You can set this var
 # Only  Links formats can be accepted for this Var value.

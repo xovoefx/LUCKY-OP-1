@@ -318,7 +318,7 @@ def secondary_markup(videoid, user_id):
 
             ),
 
-            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/official_lucky01"),
+            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/oye_golgappu"),
 
         ],
 
@@ -332,7 +332,7 @@ def secondary_markup2(videoid, user_id):
 
         [
 
-            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏⁩", url=f"https://t.me/official_lucky01"),
+            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏⁩", url=f"https://t.me/oye_golgappu"),
 
         ],
 
@@ -376,7 +376,7 @@ def primary_markup(videoid, user_id, current_time, total_time):
 
             ),
 
-            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/official_lucky01"),
+            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/oye_golgappu"),
 
         ],
 
@@ -408,7 +408,7 @@ def timer_markup(videoid, user_id, current_time, total_time):
 
             ),
 
-            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/official_lucky01"),
+            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/oye_golgappu"),
 
         ],
 
@@ -446,7 +446,7 @@ def audio_markup(videoid, user_id, current_time, total_time):
 
             ),
 
-            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/official_lucky01"),
+            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/oye_golgappu"),
 
         ],
 
@@ -478,7 +478,7 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
 
             ),
 
-            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/official_lucky01"),
+            InlineKeyboardButton(text="๏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/oye_golgappu"),
 
         ],
 
@@ -492,7 +492,7 @@ audio_markup2 = InlineKeyboardMarkup(
 
         [
 
-            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Official_lucky01"),
+            InlineKeyboardButton(text="๏ ʟᴜᴄᴋʏ sᴜᴘᴘᴏʀᴛ ๏", url=f"https://t.me/Oye_golgappu"),
 
         ],
 

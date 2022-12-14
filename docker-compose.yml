@@ -1,0 +1,7 @@
+version: "3.10"
+services:
+  worker:
+    build: .
+    environment:
+      BOT_TOKEN: $BOT_TOKEN 
+      ADMINS: $ADMINS 
